@@ -1,0 +1,8 @@
+sentenceReverser(s)
+    words <- s.split(' ')
+    i <- LENGTH[words] - 1
+    sen = ""
+    while i >= 0
+        sen += words[i] + " "
+        i -= 1
+    return sen

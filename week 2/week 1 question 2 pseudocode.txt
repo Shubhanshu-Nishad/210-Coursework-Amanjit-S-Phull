@@ -1,0 +1,7 @@
+COUNTTRAILING(x)
+    zeros <- 0
+    WHILE x > 0
+        x <- x/5
+        zeros <- zero + x
+
+    RETURN zeros

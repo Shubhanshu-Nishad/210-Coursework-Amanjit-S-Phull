@@ -1,0 +1,7 @@
+PRIMECHECKER(N, DIVISOR)
+    IF (DIVISOR == N)                  
+        RETURN "It is a prime number"
+    IF (N % DIVISOR == 0)               
+        RETURN "It is not a prime number"
+    RETURN (PRIMECHECKER(N, DIVISOR+1))  
+

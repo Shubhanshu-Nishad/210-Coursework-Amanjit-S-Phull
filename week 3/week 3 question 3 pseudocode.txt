@@ -1,0 +1,14 @@
+DELETEVOWEL(i,word, noVowel):
+    vowels <- ["a","e","i","o","u","A","E","I","O","U"]              
+    isVowel <- FALSE
+    for vowel in vowels
+        if vowel = word[i]
+            isVowel <- True
+            break
+    if isVowel = FALSE
+        noVowel <- noVowel + word[i]
+    if i = LENGTH(word)-1                                    
+        RETURN noVowel
+    else
+        RETURN DELETEVOWEL(i+1, word, noVowel)
+

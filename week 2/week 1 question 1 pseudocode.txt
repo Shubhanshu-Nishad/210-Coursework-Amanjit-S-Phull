@@ -1,0 +1,10 @@
+NUMBERSHUFFLER(L):                         
+    FOR i <- length[L] down to 1:
+        position <- random number up to i     
+        toSwap <- li[position]                 
+        li[position] = li[i]
+        li[i] = toSwap
+    shufList = li
+    return (shufList)
+
+BigO is O(n)

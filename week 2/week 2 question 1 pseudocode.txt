@@ -1,0 +1,7 @@
+PERFECTSQUARE(N)
+	i <- 0
+    FOR i <- n
+        IF i*i > N
+            n <- (i-1) * (i-1)
+            break
+    RETURN N
