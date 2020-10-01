@@ -49,7 +49,7 @@ def in_order(tree):
                 fin = True
 
 if __name__ == '__main__':
-    
+ #INSERTING TREE VALUES   
   t=tree_insert(None,6);
   tree_insert(t,10)
   tree_insert(t,5)
